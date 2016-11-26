@@ -1,0 +1,25 @@
+{
+  "name": "translations-sheet-cli",
+  "version": "0.0.1",
+  "description": "A CLI tool to generate translations from the comfort of your terminal and append them on Google Sheets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec --require intelli-espower-loader ../test/_setup.js test/*.test.js"
+  },
+  "keywords": ["command", "line", "interface", "cli", "translations", "google",
+    "translate", "google", "sheets", "application", "translations", "translator"
+  ],
+  "author": "Ziyad Al-Obaidi",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/translate": "^0.5.1",
+    "bluebird": "^3.4.6",
+    "google-auth-library": "^0.9.9",
+    "googleapis": "^14.2.0",
+    "lodash": "^4.17.2",
+    "yargs": "^6.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  }
+}

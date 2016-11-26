@@ -1,0 +1,5 @@
+{
+  "spreadSheetId":   "change this",
+  "translateApiKey": "change this",
+  "languages":       ["ar", "de", "es", "zh", "hu", "pt", "ko", "ja", "hi", "pl"]
+}
